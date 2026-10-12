@@ -1,0 +1,35 @@
+# --- Data: never commit (licensed or course-provided) ---
+data/raw/
+*.csv
+*.csv.gz
+*.parquet
+*.xlsx
+*.xls
+
+# --- Local working copies, caches and exports (contain CRSP-derived data) ---
+_original/
+cache/
+exports/
+crsp/
+*.joblib
+*.pkl
+*.pickle
+*.zip
+
+# --- Credentials ---
+.env
+.pgpass
+wrds_credentials*
+
+# --- Jupyter / Python ---
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
