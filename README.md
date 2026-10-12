@@ -113,7 +113,7 @@ The modelling panel has **1,698,021 stock-days for 756 stocks** (4 Jan 2010 – 
 ## Repository structure
 
 ```
-ml-cross-sectional-return-prediction/
+ml-return-prediction-sp500/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -138,8 +138,8 @@ The notebook is committed **with the outputs of its original runs** and was not 
 ## Reproducing the analysis
 
 ```bash
-git clone https://github.com/ceciliaalocicero/ml-cross-sectional-return-prediction.git
-cd ml-cross-sectional-return-prediction
+git clone https://github.com/ceciliaalocicero/ml-return-prediction-sp500.git
+cd ml-return-prediction-sp500
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
