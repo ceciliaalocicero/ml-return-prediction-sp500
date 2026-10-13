@@ -1,6 +1,6 @@
 # Machine Learning for Cross-Sectional Stock Returns: Forecasts, Rank IC and a Cost-Aware Backtest
 
-Can price and volume signals predict which S&P 500 stocks will outperform over the next 5, 20 or 60 trading days? This project builds a survivorship-aware CRSP panel of 1.7 million stock-days (2010–2023), compares linear models, a GAM, gradient-boosted trees, random forests and a Gu–Kelly–Xiu-style neural network under a purged chronological split, and then turns the forecasts into a long-only and long/short portfolio tested against random portfolios, a placebo and 20 alternative universes, after trading costs.
+Can price and volume signals predict which S&P 500 stocks will outperform over the next 5, 20 or 60 trading days? This project builds a survivorship-aware CRSP panel of 1.7 million stock-days (2010–2023), compares linear models, a GAM, gradient-boosted trees, random forests and a Gu–Kelly–Xiu style neural network under a purged chronological split, and then turns the forecasts into a long-only and long/short portfolio tested against random portfolios, a placebo and 20 alternative universes, after trading costs.
 
 > **Status:** completed team project (4 authors), originally developed as coursework in an MSc finance course at Bocconi University. The notebook has been reorganised and lightly edited for readability since submission; methods and results are unchanged. See [Authors](#authors-and-contributions) and [Disclaimer](#disclaimer).
 >
